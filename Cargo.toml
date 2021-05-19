@@ -1,0 +1,23 @@
+[package]
+name = "libmseed-sys"
+version = "0.1.0"
+authors = ["Brian Savage <savage13@gmail.com>"]
+edition = "2018"
+description = "libmssed FFI 3.x for rust"
+repository = "https://github.com/savage13/libmseed-sys"
+homepage = "https://github.com/savage13/libmseed-sys"
+documentation = "https://docs.rs/libmseed-sys/"
+readme = "README.md"
+keywords = ["miniseed", "iris", "seismology"]
+license = "Apache"
+build = "build.rs"
+links = "mseed"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+git2 = "0.13"
+bindgen = "0.58.1"
+
