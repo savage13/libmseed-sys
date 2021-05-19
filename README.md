@@ -1,4 +1,4 @@
-libminiseed-sys
+libmseed-sys
 ===============
 
 sys-crate for the miniseed library (libmssed) https://github.com/iris-edu/libmseed
